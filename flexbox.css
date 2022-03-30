@@ -10,12 +10,14 @@ main{
     display: inline;
     align-items: flex-start;
     align-content: bottom;
+    text-align:end;
+    padding-bottom: 10px;
 
     
 }
 
 .rts{
-    direction: rtl;
+    direction: ltr;
     justify-content: space-evenly;
     background-color: black;
     display: flex;
@@ -60,17 +62,31 @@ a{
     flex: 1;
     background-color: white;
     border:solid black;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 30px;
+    height: 100px;
+
     
 }
 
 #pa2{
     flex: 1;
     background-color: white;
+    flex-direction: row;
+    justify-content: flex-end;
+    column-gap: 30px;
+    height: 100px;
 }
 
 #pa3{
     flex: 1;
     background-color: white;
+    flex-direction: row;
+    
+    justify-content: flex-start;
+    column-gap: 30px;
+    height: 100px;
 }
 
 .se{
@@ -87,10 +103,95 @@ a{
     flex-direction: row;
     flex-flow: column;
     width: 500px;
-    
     border: solid black;
     justify-content: center;
     text-emphasis: bold;
-    margin: 20px;
+    margin-left: 5em;
 }
 
+#m1{
+    display: flex;
+    background-color: black;
+    height: 50px;
+    width: 50px; 
+    align-self: center;
+}
+
+#m2{
+    display: flex;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    
+}
+
+
+#m3{
+    display: flex;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    
+}
+
+#n1{
+    display: flex;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    align-self: center;
+}
+
+#n2{
+    display: flex;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    align-self: center;
+}
+
+#n3{
+    display: flex;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    align-self:center;
+    margin-right: 30px;
+}
+
+#o1{
+    display: flex;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    margin-left: 30px;
+}
+
+#o2{
+    display: flex;
+    align-self: center;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+}
+
+#o3{
+    display: flex;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    align-self: center;
+}
+
+p{
+    color: white;
+   
+}
+h4{
+    font-size:small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
